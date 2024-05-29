@@ -1,5 +1,5 @@
 import requests
-from database import insert_data, delete_database
+from database.database import insert_data, delete_database
 
 
 url = f"https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015"

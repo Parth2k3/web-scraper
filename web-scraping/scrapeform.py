@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from database import insert_data, delete_database
+from database.database import insert_data, delete_database
 
 names = []
 years = []
