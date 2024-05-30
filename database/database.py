@@ -15,7 +15,7 @@ def insert_data(table_name, json):
         except Exception as e:
             print(f'Error inserting the entry {element}:- ', e)
 
-    return 'success'
+    return f'successfully inserted in database table {table_name}'
 
  
 import psycopg2
